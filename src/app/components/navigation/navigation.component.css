@@ -1,0 +1,22 @@
+a {
+  color: white;
+  text-decoration: none;
+  margin: 0 10px 0 10px;
+}
+
+.container {
+  color: white;
+  justify-content: center;
+  background-color: #0097A7;
+  text-align: center;
+  padding-top: 30px;
+  padding-bottom: 10px;
+  border-radius: 10px 10px 0 0;
+}
+
+.title {
+  font-size: 35px;
+  margin: 5px;
+}
+
+

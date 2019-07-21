@@ -1,0 +1,22 @@
+.task-list {
+  display: flex;
+  justify-content: center;
+  margin: 0 auto;
+  margin-top: 30px;
+  overflow: scroll;
+  /* height: 100%; */
+  width: 90%;
+  /* border: solid 2px #0097a7; */
+}
+
+ul {
+  width: 100%;
+}
+
+/* hr {
+    color: #0097A7;
+    border-width: 0.5px;
+    margin: 0 auto;
+    margin-top: 25px;
+    width: 90%;
+  } */

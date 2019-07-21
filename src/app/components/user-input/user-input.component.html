@@ -1,0 +1,6 @@
+<div class="input-container">
+        <form class="form" [formGroup]="formGroup" (ngSubmit)="sendNewTask()">
+                <input class="white-box" type="text" formControlName="description" placeholder="What has to be done?" />
+                <button class="white-box">Save</button>
+        </form>
+</div>

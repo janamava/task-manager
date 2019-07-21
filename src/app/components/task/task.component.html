@@ -1,0 +1,14 @@
+<div [ngClass]="setClasses()" class="task">
+        <div class="task-checkbox">
+                <input (change)="onToggle(task)" type="checkbox" />
+                <span>{{task.description}}</span>
+        </div>
+        <div class="each-task">
+              
+        </div>
+        <div class="delete-button">
+                <button (click)="onDelete(task)">
+                        <img src="https://raw.githubusercontent.com/google/material-design-icons/master/action/2x_web/ic_highlight_off_black_48dp.png"
+                                alt=""></button>
+        </div>
+</div>

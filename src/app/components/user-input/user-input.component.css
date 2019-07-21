@@ -1,0 +1,29 @@
+.input-container {
+  margin: 0 auto;
+  width: 80%;
+  padding-top: 40px;
+}
+
+form {
+  display: flex;
+  justify-content: center;
+}
+
+.white-box {
+  border-radius: 15px;
+  font-size: 23px;
+}
+
+input {
+  border: 1px solid #0097A7;
+  padding: 20px;
+  width: 60%;
+  margin-right: 10px;
+}
+
+button {
+  border: 1px solid #0097A7;
+  background-color: #0097A7;
+  color: white;
+  width: 100px;
+}

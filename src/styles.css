@@ -1,0 +1,10 @@
+/* You can add global styles to this file, and also import other style files */
+html {
+    height: 100%;
+}
+body {
+    padding: 0;
+    margin: 0;
+    background-size: cover;
+    background: url(src/assets/background-blur-clean-531880.jpg) no-repeat center center fixed;
+}

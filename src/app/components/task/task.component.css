@@ -1,0 +1,32 @@
+.is-completed {
+  text-decoration: line-through;
+  color: grey;
+}
+
+.task {
+  display: flex;
+  justify-content: space-between;
+  font-size: 1.50em;
+  margin: 0;
+  padding: 10px;
+  border-top: solid 0.5px lightgrey;
+  width: 90%;
+}
+
+input {
+  margin-right: 10px;
+}
+
+button {
+  background-color: transparent;
+  border: none;
+}
+
+img {
+    width: 30px;
+    height: 30px;   
+}
+
+span {
+  margin-left: 15px;
+}

@@ -1,0 +1,16 @@
+{
+  "name": "server-tasks",
+  "version": "1.0.0",
+  "description": "Local server for the task manager",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "author": "Aizhana Kamalova",
+  "license": "MIT",
+  "dependencies": {
+    "@types/node": "^12.0.2",
+    "cors": "^2.8.5",
+    "express": "^4.17.0"
+  }
+}

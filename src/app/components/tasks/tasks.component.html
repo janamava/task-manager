@@ -1,0 +1,7 @@
+<app-user-input (addTask)="addTask($event)"></app-user-input>
+<!-- <hr> -->
+<div class="task-list">
+  <ul>
+    <app-task *ngFor="let task of tasks" [task]="task" (deleteTask)="deleteTask($event)"></app-task>
+  </ul>
+</div>
